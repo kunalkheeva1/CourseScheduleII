@@ -46,7 +46,7 @@ public class CourseScheduleII {
 
         //until the queue is empty, delete the element store it in answer,
         //check its connections, and remove there inDegrees, as the element is removed,
-        //so it wont be acting as the connection with them
+        //so it won't be acting as the connection with them
         // also take count int to measure the numbers, as it could be empty or infinity arrays
         // only return if the count is n
         while(!q.isEmpty()){
